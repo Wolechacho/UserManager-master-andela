@@ -1,0 +1,15 @@
+version : '3.0' # specify the docker-compose version
+
+# Define the containers to run
+services :
+    express : # The name of express server to run
+      build : . # specifying the directory where the dockerFile is
+      ports :
+          - "3000:3000" # specifying the ports mapping
+      links:
+          -  database # link this service to the mongoDb database
+    database : # Specifying the database service
+        image : mongo # specifying the image to build container from i.e mongoDb Server
+        ports :
+          - "27017:27017" # Specifying the mongo port
+    
