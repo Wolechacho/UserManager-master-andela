@@ -15,12 +15,10 @@ STEP TO RUN THE APPLICATION
 
 3. Clone the repository from the given url
 
-4. Navigate to the repository directory
-
-5. Type the following command "docker-compose up" without the quote...It install the mongo image and as well node and mount on the container
+4. Navigate to the repository directory and click on the shell script i.e the auto.sh bash script
 
 
-Note : This following project does not contain a user Interface for testing ,Api Editor such as postman Api will be preffered for testing)
+Note : This following project does not contain a user Interface for testing ,Api Editor such as postman Api will be preffered for testing)....
 
 
 
